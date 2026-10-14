@@ -4,18 +4,18 @@ let operecao = prompt("Informe a operação: \n{+} \n{-} \n{*} \n {/}")
 
 
 if(operecao == "+") {
-    alert("O resultado é: " +(numero1) + (numero2))
+    alert( numero1 + numero2)
 
 }
 if(operecao == "-") {
-    alert("O resultado é: "+ (numero1) - (numero2))
+    alert( (numero1) - (numero2))
 
 }
-if(operecao == ".") {
+if(operecao == "*") {
     alert("O resultado é: " +(numero1) * (numero2))
 
 }
-if(operecao == "_") {
+if(operecao == "/") {
     alert("O resultado é: "+ (numero1) / (numero2))
 
 }
